@@ -1,0 +1,73 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    text-align: center;
+	vertical-align: baseline;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: fit-content;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 2em;
+    padding: 5em;
+    box-shadow: .5px 1px 5px lightslategray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1{
+    font-size: 70px;
+    padding: .4em;
+    padding-bottom: 0;
+}
+
+h2{
+    padding: .4em;
+    font-size: 20px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+form{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+input{
+    border: none;
+    border-radius: 1em;
+    padding: .5em;
+    outline: none;
+    box-shadow: .5px 1px 5px lightslategray;
+    margin: 20px auto;
+    flex-grow: 1;
+}
+
+#check-btn{
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    padding: .5em 2em;
+    border: none;
+    border-radius: 1em;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
